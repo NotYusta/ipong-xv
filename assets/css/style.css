@@ -96,7 +96,8 @@ body {
 	color: gray;
 }
 
-.footer .shop a {
+.footer .shop p a {
+    cursor: pointer;
 	color: #2563eb;
 }
 

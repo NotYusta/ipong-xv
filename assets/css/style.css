@@ -28,6 +28,7 @@ body {
 }
 
 .navbar ul li a {
+    cursor: pointer;
 	text-decoration: none;
 	color: #fff;
 	padding: 10px 15px;
@@ -138,6 +139,7 @@ body {
 }
 
 .footer .locale-link a {
+    cursor: pointer;
 	color: white;
 	text-decoration: none;
 }

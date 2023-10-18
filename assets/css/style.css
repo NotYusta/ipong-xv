@@ -99,6 +99,7 @@ body {
 .footer .shop p a {
     cursor: pointer;
 	color: #2563eb;
+    text-decoration: underline;
 }
 
 .footer .legal {

@@ -3,6 +3,7 @@ body {
 	background-color: black;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
 	background-color: black;
 	width: 100%;
@@ -80,9 +81,9 @@ body {
 }
 
 .footer {
-    width: 60%;
+	width: 60%;
 	display: table;
-	margin: 20px auto;
+	margin: 0 auto;
 	font-size: 12px;
 	font-weight: 200;
 	color: #6b7280;
@@ -106,14 +107,14 @@ body {
 .footer .legal ul {
 	position: relative;
 	top: -12px;
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .footer .legal ul li {
 	list-style: none;
 	display: inline-block;
 	margin: 0;
-    margin-left: 5px;
+	margin-left: 5px;
 }
 
 .footer .legal ul li a {
@@ -135,7 +136,6 @@ body {
 .footer .locale-link {
 	float: right;
 }
-
 
 .footer .locale-link a {
 	color: white;

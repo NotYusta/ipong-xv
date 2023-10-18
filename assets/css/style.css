@@ -1,80 +1,80 @@
 body {
-    margin: 0;
-    background-color: black;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	margin: 0;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .header {
-    background-color: black;
-    width: 100%;
+	background-color: black;
+	width: 100%;
 }
 
 .navbar {
-    max-width: 1024px;
-    margin: 20px auto;
+	max-width: 1024px;
+	margin: 20px auto;
 }
 
-
 .navbar ul {
-    margin: 0 -8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+	margin: 0 -8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
 .navbar ul li {
-    list-style: none;
+	list-style: none;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 15px;
-    display: block;
-    opacity: 90%;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 15px;
+	display: block;
+	opacity: 90%;
 }
 
 .navbar ul li a:hover {
-    opacity: 100%;
+	opacity: 100%;
 }
 
-
-.product{
-    color: white;
-    margin: 100px auto;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.product {
+	display: flex;
+	color: white;
+	margin: 100px auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .product h1 {
-    font-size: 28px;
-    color: white;
-}
-.product .description {
-    margin-top: 50px;
-    margin-bottom: 20px;
+	font-size: 32px;
+	color: white;
 }
 
 /* create a round button */
-.product .description a {
-    text-decoration: none;
-    font-weight: 600;
-    color: white;
-    background-color: #3B82F6;
-    opacity: 95%;
-    padding: 12px 24px;
-    border-radius: 25px;
+.product a {
+	margin-top: 60px;
+	text-decoration: none;
+	font-weight: 600;
+	color: white;
+	background-color: #3b82f6;
+	opacity: 95%;
+	padding: 12px 24px;
+	border-radius: 25px;
 }
 
-.product .description a:hover {
-    opacity: 100%;
+.product a:hover {
+	opacity: 100%;
 }
 
+.product a:hover {
+	opacity: 100%;
+}
 
-.product .description p {
-    margin-top: 50px;
-    font-size: 21px;
-    font-weight: 600;
+.product p {
+	opacity: 90%;
+	margin-top: 30px;
+	font-size: 19px;
+	font-weight: 600;
 }

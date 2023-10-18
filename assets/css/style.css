@@ -78,3 +78,70 @@ body {
 	font-size: 19px;
 	font-weight: 600;
 }
+
+.footer {
+    width: 60%;
+	display: table;
+	margin: 20px auto;
+	font-size: 12px;
+	font-weight: 200;
+	color: #6b7280;
+}
+
+.footer hr {
+	opacity: 20%;
+	width: 100%;
+	color: gray;
+}
+
+.footer .shop a {
+	color: #2563eb;
+}
+
+.footer .legal {
+	float: left;
+	display: flex;
+}
+
+.footer .legal ul {
+	position: relative;
+	top: -12px;
+    margin-right: 20px;
+}
+
+.footer .legal ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+    margin-left: 5px;
+}
+
+.footer .legal ul li a {
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	padding-right: 10px;
+	border-right: 1px solid gray;
+}
+
+.footer .legal ul li:last-child a {
+	border-right: none;
+}
+
+.footer .legal ul li a:hover {
+	text-decoration: underline;
+}
+
+.footer .locale-link {
+	float: right;
+}
+
+
+.footer .locale-link a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer .locale-link a:hover {
+	text-decoration: underline;
+}
